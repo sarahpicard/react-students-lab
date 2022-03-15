@@ -1,9 +1,11 @@
 import logo from './logo.svg';
+import { useState } from 'react'
 import './App.css';
 import Students from './Students';
-import Score from './Score';
+
 
 function App() {
+  const [count, setCount] = useState(0)
   const students = [
     {
       name: 'Cait Yomorta',

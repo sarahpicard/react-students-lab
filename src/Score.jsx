@@ -1,7 +1,10 @@
+import Students from "./Students"
+
 const Score = (props) => {
   return (
     <>
-    <h4>I'm a score</h4>
+    <p>Date of Score: {props.date}</p>
+    <p>Score: {props.scoreId}</p>
     </>
   )
 } 
